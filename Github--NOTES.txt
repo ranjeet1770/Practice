@@ -1,0 +1,30 @@
+Github--NOTES
+
+Creating a repository in GIThub
+1. Add a new repository
+2. Copy the command and paste in bash
+3. git remote - you can check are you in remote(cloud) or not
+4. git push origin master - it will push master branch in remote repository
+5. git push --all origin - it will push all branches in remote repository
+6. git push -u origin master - it will track all the pushes to master branch. After giving this command you can use 'git push' command directly to push the changes in remote rep.
+7. git pull orgin master - it will pull all the latest commits made
+8. git clone (URL) - it will clone/copy your remote repository to local path of other user.
+9. FORK - is not a command it creates a new remote repository for a new user, it copies everything from the root repository but if made any changes by anyone it won't affect the other repository.
+
+Note: Always pull the project before pushing it to remote repository
+
+Ignoring a file in repository
+1. git init
+2. git touch .gitignore
+(now add the file name you want to ignore in .gitignore.)
+3. git status
+
+Stashing changes
+1. git pull
+2. git stash save
+3. git pull
+4. git stash pop
+5. git add .
+
+rebase command - it will change the start poing of another branch to the latest master branch
+git squash - it combines all the commits and outputs into one single commit
